@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background:url('design.jfif') no-repeat center fixed;
+    background-size: cover;
+}
+h1{
+    color: black;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+button{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-radius: 15%;
+    color: whitesmoke;
+}
+#startTime:hover{
+    background-color: rgb(13, 68, 13);
+}
+#stopTime:hover{
+    background-color: rgb(168, 0, 0);
+}
+#pauseTime:hover{
+    background: rgb(0, 74, 87);
+}
+#startTime[disabled]:hover{
+    background-color: black;
+}
+#stopTime[disabled]:hover{
+    background-color: black;
+}
+#pauseTime[disabled]:hover{
+    background-color: black;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgb(39, 37, 37);
+    border-radius: 50%;
+    font-size: 45px;
+}
